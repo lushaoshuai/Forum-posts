@@ -12,8 +12,8 @@ browser.get('https://bbs.byr.cn/index')
 北邮人论坛发帖
 '''
 # 登录
-browser.find_element_by_id('id').send_keys('vl854328793')
-browser.find_element_by_id('pwd').send_keys('ni02165663004')
+browser.find_element_by_id('id').send_keys('')
+browser.find_element_by_id('pwd').send_keys('')
 time.sleep(2)
 browser.find_element_by_id('b_login').click()
 browser.maximize_window()
